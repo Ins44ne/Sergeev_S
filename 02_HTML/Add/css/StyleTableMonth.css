@@ -1,0 +1,19 @@
+caption {
+font-size: 100%;
+}
+table {
+    border: solid;
+    border-width: 1px;
+    margin: auto;
+    text-align: center;
+    empty-cells: hide; }
+td {
+    border: solid;
+    border-width:1px;
+    width: 30px; }
+th {
+    border: solid;
+    border-width:1px;
+    width: 35px; }
+.MyBday {
+background-color:limegreen; }
