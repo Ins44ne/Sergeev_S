@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PYTHON, Part 1</title>
+  <style>
+    .button1 {
+      float: left;
+      border-color: inherit;
+      width: 30px;
+      height: 30px;      
+    }
+    .button2 {
+      margin-left: 900px;
+      margin-right: auto;
+      border-color: inherit;
+      width: 30px;
+      height: 30px;      
+    }
+    .button3 {
+      float: right;
+      border-color: inherit;
+      width: 30px;
+      height: 30px;      
+    }
+    .PythonPicture {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+<p>
+    <img src="img/Python_Icon.png" alt="Python_Icon" class="PythonPicture">
+</p>
+<h1 id="PageTop">HOW-TO: Программа на Python, Часть 1</h1> 
+<ul>
+    <li>
+        <em>
+           <a href="index1.html">Программа на Python — часть 1</a> 
+        </em>
+    </li>
+    <li>
+        <em>
+            <a href="index2.html">Программа на Python — часть 2</a>
+        </em>
+    </li>
+    <li>
+        <em>
+            <a href="index3.html">Программа на Python — часть 3</a>
+        </em>
+    </li>
+</ul>   
+<h2 id="Content">Содержание</h2>
+<h3>HOW-TO: Программа на Python, Часть 1</h3>
+<ul>
+    <li>
+        <a href="#Our_first_programm">Наша первая программа</a>
+    </li>
+    <li>
+        <a href="#for_cycle_example">Пример цикла For</a>
+    </li>
+</ul>
+<p>
+    Из множества существующих языков программирования Python — один из самых лёгких
+    в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+    Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+    обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+    создание консольных приложений, а в следующей — программирование графических
+    интерфейсов (<u>GUI</u>). Давайте создадим простую программу прямо сейчас.
+</p>   
+    <h2 id="Our_first_programm">Наша первая программа</h2> 
+    <p>
+        <a href="#Content">К содержанию</a>
+    </p>
+<p>
+    Наберём код в текстовом редакторе (например, в <strong>gedit</strong>). Потом мы разберёмся, что делает
+    каждая строка и пойдём дальше.
+</p>
+<p>
+    Введите эти 4 строки:
+</p>
+<p>
+    <code>
+         #!/usr/bin/env python<br>
+        print 'Hello. I am a python program.'<br>
+        name = raw_input("What is your name?")<br>
+        print "Hello there, " + name + "!"
+    </code>
+</p>
+<p>
+    Это всё. Сохраните файл как <strong>hello.py</strong> в любом месте. Я предлагаю сохранить его в папке
+    <strong>python_examples</strong> в домашнем каталоге. Этот пример показывает, как просто написать
+    программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+    этого введите в терминале
+</p>    
+<p>
+    <b><var>chmod +x hello.py</var></b>
+</p>
+<p>
+    в папке, в которой вы сохранили программу. Теперь запустите её.
+</p>
+<p>
+    <code>
+        greg@earth:~/python_examples$ ./hello.py<br>
+        Hello. I am a python program.<br>
+        What is your name? Ferd Burphel<br>
+        Hello there, Ferd Burphel!<br>
+        greg@earth:~/python_examples$
+    </code>
+</p>
+<p>Вот и всё.</p>
+<h2 id="for_cycle_example">Пример цикла For</h2>
+<p>
+    <a href="#Content">К содержанию</a>
+</p>
+<p>
+    Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+    редактор и наберите следующую программу:
+</p>
+<pre>
+    <code>
+#!/usr/bin/env python
+for cntr in range(0,10):
+    print cntr
+    </code>
+</pre>    
+<p>
+    <em>Не забудьте поставить символ табуляции перед строкой «print cntr».</em> Это важно. В
+    Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+    как в других языках программирования, а отступы.
+</p>
+<p>
+  <a class="button1" title="Page 1">
+    <svg widht="25" height="25" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 16 16" version="1.0">
+            <g id="layer1">
+              <path id="path3345" stroke-linejoin="bevel" d="m0.5 9.5l7 6h1v-4h7v-7h-7v-4h-1l-7 6v3z" stroke="#000" stroke-miterlimit="0" fill="#fff"/>
+            </g>
+            <metadata>
+              <rdf:RDF>
+                <cc:Work>
+                  <dc:format>image/svg+xml</dc:format>
+                  <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                  <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+                  <dc:publisher>
+                    <cc:Agent rdf:about="http://openclipart.org/">
+                      <dc:title>Openclipart</dc:title>
+                    </cc:Agent>
+                  </dc:publisher>
+                  <dc:title>16x16px-capable, black and white icons</dc:title>
+                  <dc:date>2008-02-17T17:44:03</dc:date>
+                  <dc:description>An icon I created and mostly didn't use so far.</dc:description>
+                  <dc:source>http://openclipart.org/detail/14310/16x16px-capable-black-and-white-icons-by-qubodup-14310</dc:source>
+                  <dc:creator>
+                    <cc:Agent>
+                      <dc:title>qubodup</dc:title>
+                    </cc:Agent>
+                  </dc:creator>
+                  <dc:subject>
+                    <rdf:Bag>
+                      <rdf:li>black &amp; white</rdf:li>
+                      <rdf:li>cartoon</rdf:li>
+                      <rdf:li>clip art</rdf:li>
+                      <rdf:li>clipart</rdf:li>
+                      <rdf:li>icon</rdf:li>
+                      <rdf:li>icons</rdf:li>
+                      <rdf:li>pixel</rdf:li>
+                      <rdf:li>remix problem</rdf:li>
+                    </rdf:Bag>
+                  </dc:subject>
+                </cc:Work>
+                <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+                  <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+                  <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+                  <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+                </cc:License>
+              </rdf:RDF>
+            </metadata>
+    </svg>
+  </a>
+  <a href="#PageTop" class="button2" title="Up to content">
+    <svg widht="25" height="25" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 16 16" version="1.0">
+                <g id="layer1" transform="matrix(0,-1,1,0,0,16)">
+                  <path id="path3345" stroke-linejoin="bevel" d="m15.5 9.5l-7 6h-1v-4h-7v-7h7v-4h1l7 6v3z" stroke="#000" stroke-miterlimit="0" fill="#fff"/>
+                </g>
+                <metadata>
+                  <rdf:RDF>
+                    <cc:Work>
+                      <dc:format>image/svg+xml</dc:format>
+                      <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                      <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+                      <dc:publisher>
+                        <cc:Agent rdf:about="http://openclipart.org/">
+                          <dc:title>Openclipart</dc:title>
+                        </cc:Agent>
+                      </dc:publisher>
+                      <dc:title>16x16px-capable, black and white icons</dc:title>
+                      <dc:date>2008-02-17T17:44:03</dc:date>
+                      <dc:description>An icon I created and mostly didn't use so far.</dc:description>
+                      <dc:source>http://openclipart.org/detail/14312/16x16px-capable-black-and-white-icons-by-qubodup-14312</dc:source>
+                      <dc:creator>
+                        <cc:Agent>
+                          <dc:title>qubodup</dc:title>
+                        </cc:Agent>
+                      </dc:creator>
+                      <dc:subject>
+                        <rdf:Bag>
+                          <rdf:li>black &amp; white</rdf:li>
+                          <rdf:li>cartoon</rdf:li>
+                          <rdf:li>clip art</rdf:li>
+                          <rdf:li>clipart</rdf:li>
+                          <rdf:li>icon</rdf:li>
+                          <rdf:li>icons</rdf:li>
+                          <rdf:li>pixel</rdf:li>
+                          <rdf:li>remix problem</rdf:li>
+                        </rdf:Bag>
+                      </dc:subject>
+                    </cc:Work>
+                    <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+                      <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+                      <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+                      <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+                    </cc:License>
+                  </rdf:RDF>
+                </metadata>
+    </svg>
+  </a>
+  <a href="Index2.html" class="button3" title="Page 2">  
+    <svg widht="25" height="25"  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 16 16" version="1.0">
+                <g id="layer1">
+                  <path id="path3345" stroke-linejoin="bevel" d="m15.5 9.5l-7 6h-1v-4h-7v-7h7v-4h1l7 6v3z" stroke="#000" stroke-miterlimit="0" fill="#fff"/>
+                </g>
+                <metadata>
+                  <rdf:RDF>
+                    <cc:Work>
+                      <dc:format>image/svg+xml</dc:format>
+                      <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                      <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+                      <dc:publisher>
+                        <cc:Agent rdf:about="http://openclipart.org/">
+                          <dc:title>Openclipart</dc:title>
+                        </cc:Agent>
+                      </dc:publisher>
+                      <dc:title>16x16px-capable, black and white icons</dc:title>
+                      <dc:date>2008-02-17T17:44:03</dc:date>
+                      <dc:description>An icon I created and mostly didn't use so far.</dc:description>
+                      <dc:source>http://openclipart.org/detail/14311/16x16px-capable-black-and-white-icons-by-qubodup-14311</dc:source>
+                      <dc:creator>
+                        <cc:Agent>
+                          <dc:title>qubodup</dc:title>
+                        </cc:Agent>
+                      </dc:creator>
+                      <dc:subject>
+                        <rdf:Bag>
+                          <rdf:li>black &amp; white</rdf:li>
+                          <rdf:li>cartoon</rdf:li>
+                          <rdf:li>clip art</rdf:li>
+                          <rdf:li>clipart</rdf:li>
+                          <rdf:li>icon</rdf:li>
+                          <rdf:li>icons</rdf:li>
+                          <rdf:li>pixel</rdf:li>
+                          <rdf:li>remix problem</rdf:li>
+                        </rdf:Bag>
+                      </dc:subject>
+                    </cc:Work>
+                    <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+                      <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+                      <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+                      <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+                    </cc:License>
+                  </rdf:RDF>
+                </metadata>
+    </svg>
+  </a>
+</p>
+</body>
+</html>

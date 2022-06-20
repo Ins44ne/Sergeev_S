@@ -4,28 +4,49 @@
     <meta charset="UTF-8">
     <title>PYTHON, Part 1</title>
     <style>
-        .buttons { margin: 33%;}
+        .button1 {
+            float: left;
+            border-color: inherit;
+            width: 30px;
+            height: 30px;      
+        }
+        .button2 {
+            margin-left: 900px;
+            margin-right: auto;
+            border-color: inherit;
+            width: 30px;
+            height: 30px;      
+        }
+        .button3 {
+            float: right;
+            border-color: inherit;
+            width: 30px;
+            height: 30px;      
+        }
+        .PythonPicture {
+            float: right;
+        }
     </style>
 </head>
 <body>
 <p>
-    <img src="img/Python_Icon.png" alt="Python_Icon" align="right" vspace="10" hspace="10">
+    <img src="img/Python_Icon.png" alt="Python_Icon" class="PythonPicture">
 </p>
-<h1>HOW-TO: Программа на Python, Часть 1</h1> 
+<h1 id="PageTop">HOW-TO: Программа на Python, Часть 1</h1> 
 <ul>
     <li>
         <em>
-           <a href="Python_Part1.html">Программа на Python — часть 1</a> 
+           <a href="index1.html">Программа на Python — часть 1</a> 
         </em>
     </li>
     <li>
         <em>
-            <a href="Python_Part2.html">Программа на Python — часть 2</a>
+            <a href="index2.html">Программа на Python — часть 2</a>
         </em>
     </li>
     <li>
         <em>
-            <a href="Python_Part3.html">Программа на Python — часть 3</a>
+            <a href="index3.html">Программа на Python — часть 3</a>
         </em>
     </li>
 </ul>   
@@ -108,10 +129,8 @@ for cntr in range(0,10):
     Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
     как в других языках программирования, а отступы.
 </p>
-<p class="buttons">
-    <Button><img src="img/left_arrow_button.png" alt="Previous page"></Button>
-    <Button><img src="img/home_button.png" alt="Up to content"></Button>
-    <Button><img src="img/right_arrow_button.png" alt="Next page"></Button>
-</p>
+    <a class="button1" title="Page 1"><img src="img/left_arrow_button.png" alt="Page 1"></a>
+    <a href="#PageTop" class="button2" title="Up to content"> <img src="img/home_button.png" alt="Up"></a>
+    <a href="Index2.html" class="button3" title="Page 2"><img src="img/right_arrow_button.png" alt="Page 2"></a>
 </body>
 </html>

@@ -3,23 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>PYTHON, Part 3</title>
+    <style>
+        .button1 {
+            float: left;
+            border-color: inherit;
+            width: 30px;
+            height: 30px;      
+        }
+        .button2 {
+            margin-left: 900px;
+            margin-right: auto;
+            border-color: inherit;
+            width: 30px;
+            height: 30px;      
+        }
+        .button3 {
+            float: right;
+            border-color: inherit;
+            width: 30px;
+            height: 30px;      
+        }
+    </style>
 </head>
 <body>
-    <h1>HOW-TO: Программа на Python, Часть 3</h1> 
+    <h1 id="PageTop">HOW-TO: Программа на Python, Часть 3</h1> 
     <ul>
         <li>
             <em>
-                <a href="Python_Part1.html">Программа на Python — часть 1</a> 
+                <a href="index1.html">Программа на Python — часть 1</a> 
             </em>
         </li>
         <li>
             <em>
-                <a href="Python_Part2.html">Программа на Python — часть 2</a>
+                <a href="index2.html">Программа на Python — часть 2</a>
             </em>
         </li>
         <li>
             <em>
-                <a href="Python_Part3.html">Программа на Python — часть 3</a>
+                <a href="index3.html">Программа на Python — часть 3</a>
             </em>
         </li>
     </ul>   
@@ -53,8 +74,8 @@
         называется «random». Он даёт возможность генерировать псевдослучайные числа. Мы
         используем этот модуль в нашем первом примере.
     </p>
-    <code>
-        <pre>
+    <pre>
+        <code>
 
 #=======================================
 # random_example.py
@@ -64,8 +85,8 @@ import random
 # print 14 random integers
 for cntr in range(1,15):
     print random.randint(1,10)
-        </pre>
-    </code>
+        </code>
+    </pre>
     <p>
         Давайте разберём код по строкам. Первые четыре строки — это комментарии, о которых
         мы говорили в прошлый раз. Пятая строка говорит Python, что нужно использовать
@@ -84,33 +105,6 @@ for cntr in range(1,15):
         результаты одновременно. Допустим, нам нужно сделать это три раза для трёх наборов
         чисел. Тогда наш пример будет выглядеть как код ниже.
     </p>
-  <!--  
-    <p>
-        <code>
-            #silly example<br>
-            print '%d + %d = %d ' % (1,2,1+2)<br>
-            print '%d * %d = %d ' % (1,2,1*2)<br>
-            print '%d - %d = %d ' % (1,2,1-2)
-        </code>
-    </p>
-    <p>
-        <code>
-            print '\n'<br>
-            print '%d + %d = %d ' % (1,4,1+4)<br>
-            print '%d * %d = %d ' % (1,4,1*4)<br>
-            print '%d - %d = %d ' % (1,4,1-4)
-        </code>
-    </p>
-    <p>
-        <code>
-            print '\n'<br>
-            print '%d + %d = %d ' % (10,5,10+5)<br>
-            print '%d * %d = %d ' % (10,5,10*5)<br>
-            print '%d - %d = %d ' % (10,5,10-5)<br>
-            print '\n' 
-        </code>
-    </p>
--->
     <pre><Code>
 #silly example
 print '%d + %d = %d ' % (1,2,1+2)
@@ -154,6 +148,11 @@ DoTwo(10,5)
     <p>
         Как видите, здесь написано меньше кода — 8 строк вместо 12. Если нам нужно будет чтолибо поменять в функции, мы сможем сделать это, не создавая проблем для нашей
         программы. Чтобы вызвать функцию, нужно написать её имя и параметры.
+    </p>
+    <p>
+        <a href="index2.html" class="button1" title="Page 2"><img src="img/left_arrow_button.png" alt="Page 1"></a>
+        <a href="#PageTop" class="button2" title="Up to content"> <img src="img/home_button.png" alt="Up"></a>
+        <a class="button3" title="Page 3"><img src="img/right_arrow_button.png" alt="Page 2"></a>
     </p>
 </body>
 </html>
