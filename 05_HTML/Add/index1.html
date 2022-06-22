@@ -40,11 +40,23 @@
                 <input type="number" name="BirthDay" min="1" max="31" step="1" placeholder="Дата"> Дата рождения<br>
             </fieldset>
             <select name="nationality" id="nationality" required>
-                <option value="0" selected></option>
+                <option value="" selected>...</option>
                 <option value="1">РБ</option>
                 <option value="2">РП</option>
                 <option value="3">УКР</option>
             </select> Национальность <br>
+            <select name="list1" id="List1">
+                <option value="0" selected>Город</option>
+                <option value="1">Брест</option>
+                <option value="2">Витебск</option>
+                <option value="3" disabled>Гомель</option>
+                <option value="4">Гродно</option>
+                <option value="5">Минск</option>
+                <option value="6">Могилев</option>
+            </select> 
+
+
+
             Адрес: <br>
             <textarea name="adress" id="adress" cols="20" rows="2" placeholder="Адрес проживания"></textarea>
         </fieldset><br>
@@ -52,17 +64,17 @@
             <legend>Интересы</legend>
             <fieldset>
                 <legend>Хобби</legend>
-                <label for="hobby">
-                    <input type="checkbox" name="hobby1" id="hobby1"> Рыбалка
+                <label for="hobbies">
+                    <input type="checkbox" name="hobby1" id="hobbies"> Рыбалка
                 </label><br>
-                <label for="hobby2">
-                    <input type="checkbox" name="hobby2"  id="hobby2"> Астроноия
+                <label for="hobbies2">
+                    <input type="checkbox" name="hobby2" id="hobbies2"> Астроноия
                 </label><br>
-                <label for="hobby3">
-                    <input type="checkbox" name="hobby3"  id="hobby3"> Дайвинг
+                <label for="hobbies3">
+                    <input type="checkbox" name="hobby3" id="hobbies3"> Дайвинг
                 </label><br>
-                <label for="hobby4">
-                    <input type="checkbox" name="hobby4" id="hobby4"> Марки
+                <label for="hobbies4">
+                    <input type="checkbox" name="hobby4" id="hobbies4"> Марки
                 </label><br>
             </fieldset>
             <fieldset>
@@ -107,5 +119,6 @@
             <input type="reset" value="Сбросить"> <br>
             <button disabled><img src="../Base/img/email.jpg" alt="Кнопка"></button>
         </fieldset>
+    </form>
 </body>
 </html>
