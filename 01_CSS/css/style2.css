@@ -1,0 +1,20 @@
+.letter {
+    text-align: right;
+}
+.adress {
+    text-align: right;
+}
+.ivanov {
+    font-family: 'Marck Script', cursive;
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 20px 0px 20px 30px;
+}
+.letter_body {
+    font-family: 'Bad Script', cursive;
+    text-align: justify;
+    /* text-align-last: justify; */
+}
+.letter_body p {
+    text-indent: 30px;
+}
