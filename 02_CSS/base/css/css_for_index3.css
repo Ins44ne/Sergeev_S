@@ -1,0 +1,21 @@
+.left_block {
+    width: 15em;
+    background-color: lightcoral;
+    float: left;
+}
+.right_up_block {
+    width: 102em;
+    background-color: lightblue;
+    float:left;
+    
+    margin-bottom: .2em;
+}
+.right_up_block p img {
+    float: right;
+}
+.footer {
+    width: 100%;
+    clear: both;
+    background-color: lightpink;
+    height: auto;
+}
