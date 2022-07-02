@@ -4,10 +4,10 @@
     float: left;
 }
 .right_up_block {
-    width: 102em;
+    max-width: 104em;
+    min-width: 80em;
     background-color: lightblue;
     float:left;
-    
     margin-bottom: .2em;
 }
 .right_up_block p img {
