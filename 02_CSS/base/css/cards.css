@@ -4,84 +4,92 @@
     height: 200px;
     width: 145px;
     display: inline-block;
-    background-position: -11.3cm -15.7cm;
-    }
+    background-position: -428px -590px;
+}
+
 .queen {
-        background-image: url(../img/cards.png);
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 145px;
-        display: inline-block;
-        background-position: 0.1cm -47.27cm;
-    }
-    .nine_diamond {
-        background-image: url(../img/cards.png);
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 145px;
-        display: inline-block;
-        background-position: -7.6cm -36.8cm;
-    }
-    .ace_clubs {
-        background-image: url(../img/cards.png);
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 145px;
-        display: inline-block;
-        background-position: -3.8cm -57.8cm;
-    }
-    .joker {
-        background-image: url(../img/cards.png);
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 145px;
-        display: inline-block;
-        background-position: -7.6cm -63.1cm;
-    }
-    /* second part with overlay */
-    .five_heart_overlay {
-        background-image: url(../img/cards.png);
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 145px;
-        display: inline-block;
-        background-position: -11.3cm -15.7cm;
-        margin-right: -2.7cm;
-        }
-    .queen_overlay {
-            background-image: url(../img/cards.png);
-            background-repeat: no-repeat;
-            height: 200px;
-            width: 145px;
-            display: inline-block;
-            background-position: 0.1cm -47.27cm;
-            margin-right: -2.7cm;
-        }
-        .nine_diamond_overlay {
-            background-image: url(../img/cards.png);
-            background-repeat: no-repeat;
-            height: 200px;
-            width: 145px;
-            display: inline-block;
-            background-position: -7.6cm -36.8cm;
-            margin-right: -2.7cm;
-        }
-        .ace_clubs_overlay {
-            background-image: url(../img/cards.png);
-            background-repeat: no-repeat;
-            height: 200px;
-            width: 145px;
-            display: inline-block;
-            background-position: -3.8cm -57.8cm;
-            margin-right: -2.7cm;
-        }
-        .joker_overlay {
-            background-image: url(../img/cards.png);
-            background-repeat: no-repeat;
-            height: 200px;
-            width: 145px;
-            display: inline-block;
-            background-position: -7.6cm -63.1cm;
-            margin-right: -2.7cm;
-        }
-        
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: 0px -1783px;
+}
+
+.nine_diamond {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: -288px -1383px;
+}
+
+.ace_clubs {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: -140px -2180px;
+}
+
+.joker {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: -288px -2380px;
+}
+
+/* second part with overlay */
+.five_heart_overlay {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: -428px -590px;
+    margin-right: -2.7cm;
+}
+
+.queen_overlay {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: 0px -1783px;
+    margin-right: -2.7cm;
+}
+
+.nine_diamond_overlay {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: -288px -1385px;
+    margin-right: -2.7cm;
+}
+
+.ace_clubs_overlay {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: -140px -2180px;
+    margin-right: -2.7cm;
+}
+
+.joker_overlay {
+    background-image: url(../img/cards.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 145px;
+    display: inline-block;
+    background-position: -288px -2380px;
+    margin-right: -2.7cm;
+}
