@@ -1,21 +1,24 @@
+
 .left_block {
     width: 15em;
-    background-color: lightcoral;
     float: left;
+    background-color: lightcoral;
+    margin-right: 3px;
+    
 }
 .right_up_block {
-    max-width: 104em;
-    min-width: 80em;
     background-color: lightblue;
-    float:left;
-    margin-bottom: .2em;
+    margin-bottom: 0.2em;
+    overflow: hidden;
 }
 .right_up_block p img {
     float: right;
 }
 .footer {
-    width: 100%;
     clear: both;
-    background-color: lightyellow;
+    background-color: lawngreen;
     height: auto;
+}
+.footer p {
+    margin: 0.1em;
 }
