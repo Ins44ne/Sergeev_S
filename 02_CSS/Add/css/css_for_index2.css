@@ -1,0 +1,50 @@
+.flexflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+}
+.FlexLeftColumn {
+    width: 15%;
+}
+.left_block {
+    max-width: 100%;
+    height: auto;
+    background-color:teal;
+    color:black;
+    border-style: double;
+    border-color: blueviolet;
+    border-radius: 20px;
+    overflow: auto;
+}
+.left_block h2 {
+    text-align: center;
+}
+.flexColumn {
+    width: 84%;
+}
+.right_up_block {
+    flex-direction: column;
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+    background-color:wheat;
+    color: black;
+    border-style: double;
+    border-color:blueviolet;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.right_up_block img{
+    float: right;
+}
+.footer {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;   
+    background-color:lightslategray;
+    color: white;
+    border-style: double;
+    border-color:blueviolet;
+    border-radius: 20px;
+}
