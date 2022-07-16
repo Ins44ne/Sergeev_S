@@ -1,0 +1,43 @@
+table {
+    width: 75%;
+    height: 300px;
+    text-align: center;
+    border-collapse: collapse;
+    border-left: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin: auto;
+}
+
+th {
+    font-size: 18px;
+    background: gray;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+td {
+    border: 1px dotted black;
+}
+
+tfoot tr td {
+    border-bottom: none;
+}
+
+th:hover {
+    color: chartreuse
+}
+
+tr:hover {
+    background: #1E2761;
+    background: -moz-linear-gradient(left, #1E2761 0%, #7A2048 50%, #408ec6 100%);
+    background: -webkit-linear-gradient(left, #1E2761 0%, #7A2048 50%, #408ec6 100%);
+    background: linear-gradient(to right, #1E2761 0%, #7A2048 50%, #408ec6 100%);
+    color: white;
+
+}
+
+tfoot tr td:hover {
+    color: chartreuse;
+    background: gray;
+}

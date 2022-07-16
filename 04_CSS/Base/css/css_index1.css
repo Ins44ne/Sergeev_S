@@ -1,0 +1,32 @@
+div::selection, a::selection, img::selection, h1::selection {
+    background: seagreen;
+    color: white;
+}
+div {
+    border: 2px solid lightgray;
+    border-radius: 0 10px 0 10px;
+}
+a[href*="//"] { 
+    background:url(../img/arow.png) no-repeat;
+    padding: 0 0 0 10px;
+}
+a:active {
+    font-weight: 800;
+    font-size: xx-large;
+    color: tomato;
+}
+span::before {
+    content:url(../img/file.jpg)
+}
+img[alt^="logo"]{
+    display: none;
+    left: 350px;
+    top: 500px;
+}
+span:hover a.file_link_word::after {
+    content:url(../img/word.jpg)
+}span:hover a.file_link_pdf::after {
+    content:url(../img/pdf.png)
+}span:hover a.file_link_archive::after {
+    content:url(../img/archive.gif)
+}

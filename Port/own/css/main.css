@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://oir.mobi/uploads/posts/2021-03/1616430087_38-p-zadnii-fon-dlya-saita-44.jpg);
+}
+.firm {
+    display: inline-block;
+}
+.logo {
+    width: 200px;
+}
+.logo img{    
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color:burlywood;
+    border-radius: 33%;
+    margin-top: -15px;
+    border: 2px solid black;
+}
+.slogan {
+    width: 400px;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+}
+.adress {
+    float: right;
+}
+.telephone {
+    float: right;
+}

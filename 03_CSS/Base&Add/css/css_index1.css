@@ -1,0 +1,180 @@
+h2 {
+    display: none;
+}
+
+h3 {
+    display: none;
+}
+
+.week {
+    padding: 2px;
+    font-size: 20px;
+}
+
+.week div {
+    /* width: 267px; */
+    width: 13%;
+    display: inline-block;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background: #99FFCC;
+    background: -moz-linear-gradient(left, #99FFCC 0%, #33FFCC 45%, #33CCCC 100%);
+    background: -webkit-linear-gradient(left, #99FFCC 0%, #33FFCC 45%, #33CCCC 100%);
+    background: linear-gradient(to right, #99FFCC 0%, #33FFCC 45%, #33CCCC 100%);
+    border-radius: 10px;
+    color: black;
+}
+
+.week .day {
+    position: absolute;
+    width: 88%;
+    top: 23px;
+    left: 7%;
+    height: 0;
+    transition-duration: 3s;
+}
+
+.week .day div {
+    display: none;
+    position: relative;
+    width: 110%;
+    cursor: pointer;
+}
+
+.week div:hover .day div {
+    display: block;
+    transition: 0.01s;
+    transition-duration: 0.5s;
+}
+
+.day div:hover {
+    background: blueviolet;
+    width: 120%;
+    z-index: 1;
+
+}
+
+/* @media 1180px*/
+
+@media all and (max-width: 1180px) {
+    h1 {
+        display: none;
+    }
+    h2 {
+        display: block;
+    }
+    h3 {
+        display: none;
+    }
+    
+    .week {
+        padding: 2px;
+        font-size: 30px;
+    }
+
+    .week div {
+        width: 30%;
+        display: block;
+        border: 1px solid black;
+        cursor: pointer;
+        position: relative;
+        background: #BC6D4F;
+        background: -moz-linear-gradient(left, #BC6D4F 0%, #9D331F 45%, #500805 100%);
+        background: -webkit-linear-gradient(left, #BC6D4F 0%, #9D331F 45%, #500805 100%);
+        background: linear-gradient(to right, #BC6D4F 0%, #9D331F 45%, #500805 100%);
+        border-radius: 10px;
+        color: white;
+    }
+
+    .week .day {
+        position: absolute;
+        width: 50%;
+        top: 0px;
+        left: 47%;
+        transition-duration: 3s;
+        height: 0;
+    }
+
+    .week .day div {
+        display: none;
+        position: relative;
+        width: 120%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .week div:hover .day div {
+        display: block;
+        background: black;
+        color: white;
+        border: 1px solid white;
+
+    }
+
+    .day div:hover {
+        width: 140%;
+    }
+
+}
+/* @media 730px*/
+
+@media all and (max-width: 730px) {
+    h1 {
+        display: none;
+    }
+    h2 {
+        display: none;
+    }
+    h3 {
+        display: block;
+    }
+    .week {
+        padding: 2px;
+        font-size: 30px;
+    }
+
+    .week div {
+        width: 30%;
+        display: block;
+        border: 1px solid black;
+        cursor: pointer;
+        position: relative;
+        background: #BC6D4F;
+        background: -moz-linear-gradient(left, #BC6D4F 0%, #9D331F 45%, #500805 100%);
+        background: -webkit-linear-gradient(left, #BC6D4F 0%, #9D331F 45%, #500805 100%);
+        background: linear-gradient(to right, #BC6D4F 0%, #9D331F 45%, #500805 100%);
+        border-radius: 10px;
+        color: white;
+    }
+
+    .week .day {
+        position: absolute;
+        width: 80%;
+        top: 0px;
+        left: 15%;
+        transition-duration: 3s;
+        height: 0;
+    }
+
+    .week .day div {
+        display: none;
+        position: relative;
+        width: 150%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .week div:hover .day div {
+        display: block;
+        background: black;
+        color: white;
+        border: 1px solid white;
+
+    }
+
+    .day div:hover {
+        width: 180%;
+    }
+
+}
