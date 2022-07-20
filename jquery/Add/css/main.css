@@ -1,0 +1,69 @@
+body {
+    height: 3500px;
+    width: 90%;
+    margin: auto;
+}
+
+form {
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+input {
+    margin: 3px;
+}
+
+section {
+    height: 700px;
+    background: #0195AE;
+    background: -moz-linear-gradient(top, #0195AE 0%, #85C8DE 51%, #dae5ea 100%);
+    background: -webkit-linear-gradient(top, #0195AE 0%, #85C8DE 51%, #dae5ea 100%);
+    background: linear-gradient(to bottom, #0195AE 0%, #85C8DE 51%, #dae5ea 100%);
+    color: black;
+}
+
+section h3 {
+    margin: 0;
+}
+
+section div {
+    display: inline-block;
+}
+
+section div img {
+    display: none;
+    position: absolute;
+    left: 1051.445px; 
+    top: 515.961px;
+    z-index: 2;
+}
+
+.navbar {
+    height: 100px;
+    background: rgb(202,174,106);
+
+}
+
+.navbar a {
+    display: block;
+    color: #003265;
+    
+}
+
+p, summary, ul, li, a {
+    font-size: 22px;
+}
+
+.up {
+    display: none;
+    height: 128px;
+    width: 128px;
+    position: fixed;
+    right: 5%;
+    bottom: 1%;
+}
+
+#fry {
+    position: absolute;
+}
