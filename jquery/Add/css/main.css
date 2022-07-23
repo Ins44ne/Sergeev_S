@@ -21,6 +21,7 @@ section {
     background: -webkit-linear-gradient(top, #0195AE 0%, #85C8DE 51%, #dae5ea 100%);
     background: linear-gradient(to bottom, #0195AE 0%, #85C8DE 51%, #dae5ea 100%);
     color: black;
+    position: relative;
 }
 
 section h3 {
@@ -33,9 +34,10 @@ section div {
 
 section div img {
     display: none;
+    width: 40%;
     position: absolute;
-    left: 1051.445px; 
-    top: 515.961px;
+    left: 50%;
+    top: 10%;
     z-index: 2;
 }
 
@@ -67,3 +69,91 @@ p, summary, ul, li, a {
 #fry {
     position: absolute;
 }
+
+.yellow, .blue {
+    width: 300px;
+    height: 75px;
+    position: absolute;
+    left: 5%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.buttonFlags1 {
+    position: absolute;
+    left: 5%;
+}
+
+.buttonFlags2 {
+    position: absolute;
+    left: 25%;
+}
+
+.buttonFlags3 {
+    position: absolute;
+    left: 45%;
+}
+
+.yellow {
+    background: yellow;
+    top: 22%;
+    border-bottom: 2px solid black;
+}
+
+.blue {
+    background: darkblue;
+    top: 12%;
+    border-top: 2px solid black;
+}
+
+.white, .white1, .black {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 25%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.white {
+    background: white;
+    top: 12%;
+    border-top: 2px solid black;
+}
+
+.black {
+    background: black;
+    top: 19%;
+}
+
+.white1 {
+    background: white;
+    top: 26%;
+    border-bottom: 2px solid black;
+}
+
+.black1, .blue1, .white2 {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 45%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.blue1 {
+    background: darkblue;
+    top: 12%;
+    border-top: 2px solid black;
+}
+
+.black1 {
+    background: black;
+    top: 19%;
+}
+.white2 {
+    background: white;
+    top: 26%;
+    border-bottom: 2px solid black;
+}
+

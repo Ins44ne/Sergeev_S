@@ -30,7 +30,6 @@ $(document).ready(function () {
         if (scroll>2000) {
             $("#fry").animate({left: "+=30%" }, 3000);
             $("#fry").animate({left: "-=30%" }, 5000);
-                
         }
     })
 
@@ -43,6 +42,46 @@ $(document).ready(function () {
             $('.up').fadeOut();
         }
     })
+
+    // slide/show/hide/fade
+    $('#flag').click(function(){
+        $('.blue').slideUp('fast');
+        $('.yellow').slideUp('slow');
+    })
+
+    $('#flag1').click(function(){
+        $('.blue').slideDown('slow');
+        $('.yellow').slideDown('slow');
+    })
+
+    $('#flag2').click(function(){
+        $('.white1').hide(1800);
+        $('.black').hide(1200);
+        $('.white').hide(600);
+    })
+
+    $('#flag3').click(function(){
+        $('.white').show(900);
+        $('.black').show(1800);
+        $('.white1').show(2700);
+    })
+
+    $('#flag4').click(function(){
+        $('.blue1').fadeOut(1800);
+        $('.black1').fadeOut(1200);
+        $('.white2').fadeOut(600);
+    })
+
+    $('#flag5').click(function(){
+        $('.blue1').fadeIn(900);
+        $('.black1').fadeIn(1800);
+        $('.white2').fadeIn(2700);
+    })
+
+    $('.black').mouseenter(function(){
+        alert('На красный не поменяю! :-)');
+    })
+
 });
 
 function validate() {
